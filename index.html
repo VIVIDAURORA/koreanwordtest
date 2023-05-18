@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="quiz-container">
+      <h1>Quiz Game</h1>
+      <div id="options-container">
+        <label>
+          <input type="checkbox" id="timer-checkbox">
+          Enable timer (10 seconds)
+        </label>
+        <label>
+          <input type="checkbox" id="shuffle-checkbox">
+          Shuffle questions and answers
+        </label>
+        <button id="start-btn">Start Quiz</button>
+      </div>
+      <div id="timer"></div>
+      <div id="question-container"></div>
+      <div id="answers-container"></div>
+      <button id="next-btn" class="hidden">Next</button>
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>

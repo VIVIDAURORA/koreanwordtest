@@ -1,0 +1,34 @@
+#quiz-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#quiz-container h1 {
+  margin-top: 0;
+}
+
+#options-container {
+  margin-bottom: 20px;
+}
+
+#options-container label {
+  margin-right: 10px;
+}
+
+#answers-container {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.correct {
+  background-color: #a1ffa1;
+}
+
+.incorrect {
+  background-color: #ff7575;
+}
